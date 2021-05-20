@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.errorMessage {
+  margin: auto;
+  font-weight: bold;
+  color: rgb(161, 15, 15);
+}
+
+
